@@ -1,0 +1,26 @@
+import { motion } from 'framer-motion';
+import { styles } from '../style';
+import { staggerContainer } from '../utils/motion';
+import { FC, ReactElement } from 'react';
+
+interface IProps {
+  idName?: string;
+  children: ReactElement;
+}
+
+const SectionWrapper: FC<IProps> = ({ children, idName }) => {
+  return (
+    <motion.section
+      variants={staggerContainer()}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true, amount: 0.25 }}
+      className={`${styles.paddingX} max-w-7xl mx-auto relative z-0`}
+    >
+      <span id={idName}>&nbsp;</span>
+      {children}
+    </motion.section>
+  );
+};
+
+export default SectionWrapper;
