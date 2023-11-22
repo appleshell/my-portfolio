@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { close, logo, menu } from '../assets';
 import { navLinks } from '../constants';
@@ -23,7 +23,8 @@ const Navbar = () => {
         >
           <img className="w-12 h-12 object-contain" src={logo} alt="logo" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Pansen LYU &nbsp;<span className="sm:block hidden">| Front-end</span>
+            Pansen LYU &nbsp;
+            <span className="sm:block hidden">| Front-end</span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">

@@ -58,7 +58,9 @@ const Contact = () => {
       .finally(() => setLoading(false));
   };
 
-  const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (
+    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+  ) => {
     const { name, value } = e.target;
     setForm({ ...form, [name]: value });
   };
@@ -78,7 +80,11 @@ const Contact = () => {
           </p>
 
           <form
+            // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+            // @ts-ignore
             ref={formRef}
+            // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+            // @ts-ignore
             onSubmit={handleSubmit}
             className="mt-12 flex flex-col gap-8"
           >

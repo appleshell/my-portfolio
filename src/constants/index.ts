@@ -1,31 +1,19 @@
 import {
-  mobile,
-  backend,
-  creator,
   web,
   javascript,
   typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
   nestjs,
   nextjs,
   vuejs,
+  connectBg,
+  siteBg,
+  mycBg
 } from '../assets';
 
 export const navLinks = [
@@ -205,58 +193,60 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Connect',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
-  },
-  {
-    name: 'Job IT',
-    description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
-  },
-  {
-    name: 'Trip Guide',
-    description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'Web-based platform that allows users to apply, creat and test ad positions. It also shows the ad data to help users select stategies.',
     tags: [
       {
         name: 'nextjs',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'tailwind',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'nestjs',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: connectBg,
+    url: 'http://103.144.149.203/ad',
+    source_code_link: 'https://github.com/appleshell/ad-connect',
+  },
+  {
+    name: 'myc',
+    description:
+      'My custom tools for my development and learning. it includes UI components, custome hooks and utility functions',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'dumi',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'markdown',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: mycBg,
+    url: 'https://my-component.vercel.app/',
+    source_code_link: 'https://github.com/appleshell/myc',
+  },
+  {
+    name: 'Appleshell',
+    description:
+      'My personal site, including my learning records and some thoughts.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'docusaurus',
         color: 'green-text-gradient',
       },
       {
@@ -264,8 +254,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: siteBg,
+    url: 'http://103.144.149.203/',
+    source_code_link: 'https://github.com/appleshell/my-frontend',
   },
 ];
 

@@ -22,7 +22,8 @@ import typescript from './tech/typescript.png';
 import threejs from './tech/threejs.svg';
 import nestjs from './tech/nestjs.svg';
 import nextjs from './tech/nextjs.svg';
-import vuejs from './tech/vue.svg'
+import vuejs from './tech/vue.svg';
+import link from './link.svg';
 
 import meta from './company/meta.png';
 import shopify from './company/shopify.png';
@@ -32,6 +33,10 @@ import tesla from './company/tesla.png';
 import carrent from './carrent.png';
 import jobit from './jobit.png';
 import tripguide from './tripguide.png';
+
+import connectBg from './connect.jpg';
+import siteBg from './site.jpg';
+import mycBg from './myc.jpg';
 
 export {
   logo,
@@ -58,6 +63,7 @@ export {
   nestjs,
   nextjs,
   vuejs,
+  link,
   meta,
   shopify,
   starbucks,
@@ -65,4 +71,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  connectBg,
+  siteBg,
+  mycBg,
 };

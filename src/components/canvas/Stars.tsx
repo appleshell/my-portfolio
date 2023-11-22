@@ -1,4 +1,4 @@
-import { useState, useRef, Suspense, FC } from 'react';
+import { useRef, Suspense, FC } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Points, PointMaterial, Preload } from '@react-three/drei';
 import * as random from 'maath/random/dist/maath-random.esm.js';
@@ -8,9 +8,10 @@ interface IProps {
 }
 
 const Stars: FC<IProps> = (props) => {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const ref = useRef<any>();
 
-  useFrame((state, delta) => {
+  useFrame((_state, delta) => {
     ref.current.rotation.x -= delta / 10;
     ref.current.rotation.y -= delta / 15;
   });

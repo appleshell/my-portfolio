@@ -1,4 +1,4 @@
-import React, { FC, Suspense } from 'react';
+import { FC, Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import {
   Decal,
