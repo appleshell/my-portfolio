@@ -13,7 +13,7 @@ import {
   vuejs,
   connectBg,
   siteBg,
-  mycBg
+  mycBg,
 } from '../assets';
 
 export const navLinks = [
@@ -36,18 +36,6 @@ const services = [
     title: 'Front-End Developer',
     icon: web,
   },
-  // {
-  //   title: 'React Native Developer',
-  //   icon: mobile,
-  // },
-  // {
-  //   title: 'Backend Developer',
-  //   icon: backend,
-  // },
-  // {
-  //   title: 'Content Creator',
-  //   icon: creator,
-  // },
 ];
 
 const technologies = [
@@ -75,10 +63,6 @@ const technologies = [
     name: 'Next JS',
     icon: nextjs,
   },
-  // {
-  //   name: 'Redux Toolkit',
-  //   icon: redux,
-  // },
   {
     name: 'Tailwind CSS',
     icon: tailwind,
@@ -95,22 +79,6 @@ const technologies = [
     name: 'MongoDB',
     icon: mongodb,
   },
-  // {
-  //   name: 'Three JS',
-  //   icon: threejs,
-  // },
-  // {
-  //   name: 'git',
-  //   icon: git,
-  // },
-  // {
-  //   name: 'figma',
-  //   icon: figma,
-  // },
-  // {
-  //   name: 'docker',
-  //   icon: docker,
-  // },
 ];
 
 const experiences = [
