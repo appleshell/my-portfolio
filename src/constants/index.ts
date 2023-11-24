@@ -179,7 +179,7 @@ const projects = [
       },
     ],
     image: connectBg,
-    url: 'http://103.144.149.203/ad',
+    url: 'https://connect.linmo.info/',
     source_code_link: 'https://github.com/appleshell/ad-connect',
   },
   {
@@ -223,7 +223,7 @@ const projects = [
       },
     ],
     image: siteBg,
-    url: 'http://103.144.149.203/',
+    url: 'https://linmo.info',
     source_code_link: 'https://github.com/appleshell/my-frontend',
   },
 ];
