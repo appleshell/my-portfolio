@@ -177,6 +177,10 @@ const projects = [
         name: 'nestjs',
         color: 'pink-text-gradient',
       },
+      {
+        name: 'mongodb',
+        color: 'green-text-gradient',
+      },
     ],
     image: connectBg,
     url: 'https://connect.linmo.info/',
