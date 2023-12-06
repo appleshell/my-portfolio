@@ -75,8 +75,14 @@ const Contact = () => {
           <p className={styles.sectionSubText}>Get in touch</p>
           <h3 className={styles.sectionHeadText}>Contact</h3>
           <p>
-            Please contact me directly at {import.meta.env.VITE_MY_EMAIL} or
-            through this from
+            Please contact me directly at{' '}
+            <a
+              className="underline"
+              href={`mailto:${import.meta.env.VITE_MY_EMAIL}`}
+            >
+              {import.meta.env.VITE_MY_EMAIL}
+            </a>{' '}
+            or through this from
           </p>
 
           <form
