@@ -14,7 +14,7 @@ const Hero = () => {
           </div>
           <div>
             <h1 className={`${styles.heroHeadTextSmall}`}>
-              Front-End React Developer
+              Front-End Developer
             </h1>
             <p className={`${styles.heroSubTextSmall} mt-2 text-white-100`}>
               Hi, I'm <span className="text-[#915eff]">Pansen LYU</span>. A
