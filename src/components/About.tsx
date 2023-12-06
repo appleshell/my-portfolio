@@ -47,12 +47,19 @@ const About = () => {
             variants={fadeIn('', '', 0.1, 1)}
             className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-            I'm a skilled Front-End Developer with 6 years of experience,
-            specializing in web design and development by ReactJs and
-            Typescript, having knowledge of NestJs, database for back-end
+            I’m a skilled Front-End Developer with 6 years of experience,
+            specializing in web design and development by Reactjs Nesxtjs and
+            Typescript, and having knowledge of Nestjs, MongoDB for fullstack
             development. Adept at improving development efficiency and user
-            experience.I am also a team player who thrives in collaborating with
-            cross-functional teams to produce outstanding web applications.
+            experience. I am also a team player who thrives in collaborating
+            with cross-functional teams to produce outstanding web applications.
+            <br />
+            My main technology stacks are &nbsp;
+            <strong>
+              HTML, CSS, Javascript, Typescript, Reactjs, Nextjs, Sass,
+              Tailwindcss, Nodejs, Nestjs, MongoDB
+            </strong>
+            .
           </motion.p>
         </div>
         <div className="mt-20 flex flex-wrap gap-10">

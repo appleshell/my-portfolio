@@ -18,7 +18,8 @@ const Hero = () => {
             </h1>
             <p className={`${styles.heroSubTextSmall} mt-2 text-white-100`}>
               Hi, I'm <span className="text-[#915eff]">Pansen LYU</span>. A
-              passionate Front-end React Developer based in Sendai, Japan.📍
+              passionate Front-end React Developer from China. I live in Japan
+              now.📍 Please feel free to contact me.
             </p>
             <div className="flex justify-start items-center gap-6 mt-4">
               <a

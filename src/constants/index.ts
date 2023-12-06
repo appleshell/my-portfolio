@@ -26,6 +26,10 @@ export const navLinks = [
     title: 'Work',
   },
   {
+    id: 'projects',
+    title: 'Projects',
+  },
+  {
     id: 'contact',
     title: 'Contact',
   },
@@ -89,8 +93,9 @@ const experiences = [
     iconBg: '#383E56',
     date: 'Nov 2021 - June 2023',
     points: [
-      'Developed the advertising management system for marketing, resolving issues in utilization and daily updates.',
-      'Collaborated with product team members to implement websites for third-party companies accessing advertising functionality.',
+      'Developed the advertising management system for marketing department with React, Sass and Typescript. Also maintained a document for marketing staff.',
+      'Collaborated with product teams to build an application from scratch for third-party companies accessing our advertisement business workflow. Here is the Demo I rebuild with Nextjs, Tailwindcss, Typescript, Nestjs, Nginx and MongoDB. https://connect.linmo.info',
+      'Built and shared reusable react components that highly improved development efficiency. Demo docs: https://my-component.vercel.app',
       'Built and managed reusable components to improve development efficiently.',
       'Optimized Webpack configurations of projects to improve developing and deploying efficiency.',
     ],
@@ -102,7 +107,7 @@ const experiences = [
     iconBg: '#E6DEDD',
     date: 'May 2019 - Sep 2021',
     points: [
-      'Developed of administrative systems by ReactJS, Typescript and Ant-Design.',
+      'Developed of administrative systems by ReactJS, Typescript, Sass and Ant-Design.',
       'Daily maintenance of the intracompany frontend component library for improving development efficiency.',
       "Implemented mobile pages in WeChat to facilitate customer access to company's services.",
       'Assessed UX and UI designs for technical feasibility.',

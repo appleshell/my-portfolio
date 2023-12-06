@@ -75,7 +75,7 @@ const ProjectCard: FC<IProps> = ({
 
 const Works = () => {
   return (
-    <SectionWrapper idName="work">
+    <SectionWrapper idName="projects">
       <>
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>My Work</p>
