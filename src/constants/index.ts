@@ -188,7 +188,7 @@ const projects = [
       },
     ],
     image: connectBg,
-    url: 'https://connect.linmo.info/',
+    url: 'https://connect.linmo.info/login',
     source_code_link: 'https://github.com/appleshell/ad-connect',
   },
   {
