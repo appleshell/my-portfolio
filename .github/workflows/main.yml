@@ -6,6 +6,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env: 
+      VITE_MY_EMAIL: ${{secrets.EMAIL}}
     steps:
       - uses: actions/checkout@v4.1.1
       - name: install Node.js
